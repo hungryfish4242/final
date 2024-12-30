@@ -367,7 +367,7 @@ function calculateResult() {
   var animalName = animalNames[mbtiType];
   var animalDescription = animalDescriptions[animalName];
   var animalAbility = animalAbilities[animalName];
-  var imgSrc = "/src/image/animal/" + animalName + ".png";
+  var imgSrc = "/final/" + animalName + ".png";
 
   var answerHTML = "<h2>" + animalName + "</h2>";
   answerHTML += "<img src='" + imgSrc + "' width=150 height=150>";
