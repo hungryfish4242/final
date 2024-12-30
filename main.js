@@ -108,7 +108,7 @@ $(document).ready(function () {
   $("#start").click(function () {
     var answerName = $("#name").val();
     if (answerName === "") {
-      alert("請先輸入姓名或暱稱！");
+      alert("请先输入姓名或昵称！");
     } else {
       $("#askName").hide();
       $("#test").show();
